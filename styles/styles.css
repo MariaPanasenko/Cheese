@@ -182,3 +182,21 @@ ul > a {
 video{
     width: 49vw;
 }
+footer div {
+    background: #ffcec8;
+}
+footer p {
+    font-size: 2rem;
+   
+}
+footer img {
+    height: 4rem;
+    margin: 1.2rem;
+}
+.contact {
+    padding-top: 2rem;
+}
+.copy  {
+    text-align: center;
+    padding-bottom: 2rem;
+}
