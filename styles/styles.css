@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: url("../content/snapwire-6747.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(#c4a994, #cc9b95, #ffe0dd); */
+}
+/*****HEADER*****/
+header {
+    display: flex;
+}
+.image {
+    /* border: 2px solid black; */
+    width: 15vw;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    /* border: 2px solid rgb(224, 87, 87); */
+    width: 15vw;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img {
+    height: 12rem;
+    /* margin-top: 0.2rem; */
+}
+.cheese-header-text {
+    /* border: 2px solid rgb(224, 87, 87); */
+    width: 70vw;
+    color:#ffcec8;
+    font-family: 'Castoro', serif;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(71, 50, 50);
+    font-style: oblique;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:nth-child(2), button:nth-child(1) {
+    color: rgb(9, 15, 15);
+    font-family: 'Castoro', serif;
+    font-style: italic;
+    border: none;
+    height: 5rem;
+    width: 8rem;
+    margin: 0.3rem;
+    border-radius: 1.5rem;
+    background: rgb(255, 194, 187);
+}
+button:hover {
+    background: #b28782;
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+/*****END OF HEADER*****/
+/*****NAVBAR*****/
+.container {
+    background: rgb(255, 194, 187);
+    font-size: 2rem;
+    height: 6rem;
+    /* border-radius: 1rem; */
+    position: sticky; 
+    top: 0;
+}
+.container > ul {
+     margin: 2rem;
+     display: flex;
+     justify-content: center;
+     text-decoration: none;
+     padding-top: 0.5rem;
+     
+}
+.container > ul > li:hover, .container > ul > a > li:hover {
+    background: #b28782;
+    border: none;
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+.container > ul > li, .container > ul > a > li {
+    
+    padding: 1.2rem;
+    margin-left: 1rem;
+    height: 5rem;
+    text-align: center;
+    list-style-type: none;
+    width: 11rem;
+    border-radius: 2rem;
+    /* border: 2px solid black; */
+} 
+ul > a {
+    text-decoration: none;
+    color: black;
+}
+/***** END OF NAVBAR *****/
+/***** BODY *****/
+.section1 {
+    /* padding-left: 2rem; */
+    /* padding-top: 10rem; */
+    background-image: url("../content/front.jpg");
+    width: 100vw;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position: -20rem -30rem;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding-top: 30rem;
+    /* border: 2px solid black; */
+}
+.center-text {
+    width: 100vw;
+    /* border: 2px solid rgb(255, 255, 255); */
+    text-align: center;
+}
+.center-text > h1{
+    font-size: 2.9rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: rgb(255, 194, 187);
+    text-shadow: 0px -1px 6px rgb(0, 0, 0);
+    /* border: 2px solid black; */
+}
+.center-text > a > button{
+    background: rgb(255, 194, 187);
+    border: none;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
+.green:hover {
+    background: #4fff67;
+    border: 2px solid rgb(255, 194, 187);
+    border: none;
+    box-shadow: 0px 0px 4px rgb(107, 75, 75);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.red:hover {
+    background: #df3b3b;
+    border: 2px solid rgb(255, 194, 187);
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    cursor: pointer;
+   
+    
+}
+/***** END OF BODY *****/
+.text-section {
+    padding-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+    background: #b287826e;
+    /* padding: 2rem; */
+
+}
+.text-div > h1 {
+    text-align: center;
+    font-style: italic;
+    
+}
+.text-div > p {
+    padding: 2rem;
+    /* background: #b287828f; */
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+video{
+    width: 49vw;
+}
