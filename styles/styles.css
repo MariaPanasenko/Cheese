@@ -184,6 +184,7 @@ ul > a {
     flex-direction: row-reverse;
 }
 video{
+    margin: 2rem;
     width: 49vw;
     border-radius: 1rem;
 }
