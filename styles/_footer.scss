@@ -1,0 +1,34 @@
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 14rem;
+  background: #ffc2bb;
+  position: relative;
+}
+.contact-tiles {
+  width: 35rem;
+  height: 13.1rem;
+  padding: 2rem;
+}
+.contact-tiles p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  margin-bottom: 2rem;
+}
+.link > img {
+  height: 5rem;
+  width: 5rem;
+  margin-left: 3.5rem;
+}
+.copy {
+  display: block;
+  text-align: center;
+}
+.copy p {
+  font-size: 3rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

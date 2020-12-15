@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+body {
+  background-image: url("../content/background-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(35px);
+}
+h1 {
+  font-family: "Rouge Script", cursive;
+  font-size: 10.1rem;
+  color: #f1a49c;
+  text-shadow: 4px 0px 5px rgba($color: #000000, $alpha: 0.4),
+    4px 5px 4px rgba($color: #000000, $alpha: 0.8);
+}
+
+@mixin flex($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}

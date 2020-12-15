@@ -1,0 +1,105 @@
+header {
+  display: flex;
+  width: 100vw;
+  min-height: 15vh;
+}
+.logo {
+  flex: 1 1 30rem;
+  display: flex;
+  width: 22rem;
+  min-height: 10vh;
+  @include flex(center, center);
+}
+.logo img {
+  height: 23vh;
+  width: 9vw;
+}
+.cheese-header-text {
+  flex: 1 1 60rem;
+  width: 70rem;
+  text-align: center;
+  @include flex(center, center);
+}
+.sacura {
+  width: 20rem;
+  @include flex(center, flex-end);
+  flex: 1 10 30rem;
+}
+// Animation
+.sacura #left-leaf {
+  animation: leafshake 1.5s linear infinite alternate;
+}
+.sacura #right-leaf {
+  animation: leafshake 1.5s linear infinite alternate 0.5s;
+}
+.sacura #top-leaf {
+  animation: leafshake 1.6s linear infinite alternate 0.3s;
+}
+.sacura #top-flower,
+.sacura #center5 {
+  animation: flowers 2s linear infinite alternate 0.3s;
+}
+.sacura #right-flower,
+.sacura #center4 {
+  animation: flowersX 3s linear infinite alternate;
+}
+.sacura #left-flower,
+.sacura #center1 {
+  animation: flowers 1.9s linear infinite alternate;
+}
+.sacura #center-flower,
+.sacura #center2 {
+  animation: flowersX 2.5s linear infinite alternate;
+}
+.sacura #bottom-flower,
+.sacura #center3 {
+  animation: flowers 2s linear infinite alternate;
+}
+// End of animations
+// Nav Bar
+nav {
+  width: 100vw;
+  min-height: 7rem;
+  background: violet;
+}
+.container {
+  width: 100vw;
+  min-height: 7rem;
+  background: #ffc2bb;
+  @include flex(center, center);
+}
+ul {
+  width: 59.1rem;
+  @include flex(center, space-between);
+  min-height: 8rem;
+}
+li {
+  font-size: 2.6rem;
+  text-align: center;
+  font-style: italic;
+  font-family: "Niconne", cursive;
+  @include flex(center, space-around);
+  border-radius: 10rem;
+  width: 14.3rem;
+  min-height: 6rem;
+  color: #000;
+}
+li:hover {
+  background: #e2aba4;
+  box-shadow: 0px 0px 5px #fff;
+  color: #fff;
+  text-shadow: 0px 0px 6px #fff, 1px 1px 4px #000;
+}
+ul a {
+  list-style-type: none;
+  text-decoration: none;
+}
+#home {
+  color: #000;
+  background: #e2aba4;
+  box-shadow: none;
+  text-shadow: none;
+  color: #fff;
+  text-shadow: 0px 0px 6px #fff, 1px 1px 4px #000;
+}
+// End of navbar
